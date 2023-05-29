@@ -32,5 +32,3 @@ OR LOWER(name) ILIKE '% мой' /* Где слово в конце строки 
 OR LOWER(name) ILIKE '% мой %' /* Где слово в середине строки */
 OR LOWER(name) ILIKE 'мой';
 
-SELECT name FROM track 
-WHERE string_to_array ( 'Wishmaster',  ' ');
