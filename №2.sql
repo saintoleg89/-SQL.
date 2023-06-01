@@ -50,23 +50,23 @@ INSERT INTO album_musician values
 (8, 2),
 (9, 9);
 
-INSERT INTO track(name, album_id, duration) 
- values ('Wishmaster', 6, '00:04:23'),
-       	('Ich Will', 8, '00:03:37'),
-		('Gangstas Paradise', 4, '00:04:01'),
-		('The Real Slim Shady', 9, '00:04:44'),
-		('Take Me To Church', 5, '00:04:03'),
-		('Cant Make You Love Me', 3, '00:03:17'),
-		('Мёртвый анархист', 2, '00:04:07'),
-		('Cherry Wine', 5, '00:04:00'),
-		('Earth Song', 7, '00:06:46'),
-		('Oops!...I Did It Again', 3, '00:03:30'),
-		('Wanderlust', 6, '00:04:50'),
-		('Man In The Mirror', 7, '00:05:20'),
-		('I Wanna Go Crazy', 1, '00:03:24'),
-		('Stan', 9, '00:06:44'),
-		('Mein Herz Brennt', 8, '00:04:39'),
-		('Некромант', 2, '00:02:43');
+INSERT INTO track(name, album_id, duration) values 
+('Wishmaster', 6, '00:04:23'),
+('Ich Will', 8, '00:03:37'),
+('Gangstas Paradise', 4, '00:04:01'),
+('The Real Slim Shady', 9, '00:04:44'),
+('Take Me To Church', 5, '00:04:03'),
+('Cant Make You Love Me', 3, '00:03:17'),
+('Мёртвый анархист', 2, '00:04:07'),
+('Cherry Wine', 5, '00:04:00'),
+('Earth Song', 7, '00:06:46'),
+('Oops!...I Did It Again', 3, '00:03:30'),
+('Wanderlust', 6, '00:04:50'),
+('Man In The Mirror', 7, '00:05:20'),
+('I Wanna Go Crazy', 1, '00:03:24'),
+('Stan', 9, '00:06:44'),
+('Mein Herz Brennt', 8, '00:04:39'),
+('Некромант', 2, '00:02:43');
 
 INSERT INTO collection(name, year_of_release) values
 ('Жаль, нет ружья!', 2014),
