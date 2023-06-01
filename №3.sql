@@ -9,7 +9,7 @@ limit 1;
 
 /*название треков, продолжительность которых не менее 3,5 минуты;*/
 SELECT name  FROM track
-where duration >= 3.5;
+where duration >= '00:03:30';
 
 /*названия сборников, вышедших в период с 2018 по 2020 год включительно;*/
 SELECT name, year_of_release  FROM collection
