@@ -51,7 +51,7 @@ INSERT INTO album_musician values
 (9, 9);
 
 INSERT INTO track(name, album_id, duration) 
-	 values ('Wishmaster', 6, '00:04:23'),
+ values ('Wishmaster', 6, '00:04:23'),
        		('Ich Will', 8, '00:03:37'),
 			('Gangstas Paradise', 4, '00:04:01'),
 			('The Real Slim Shady', 9, '00:04:44'),
