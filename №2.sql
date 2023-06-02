@@ -15,7 +15,8 @@ INSERT INTO musician(name) values
 ('Король и Шут'),
 ('Coolio'),
 ('Michael Jackson'),
-('Eminem');
+('Eminem'),
+('Dido');
 
 INSERT INTO musician_style values
 (5, 3),
@@ -26,14 +27,15 @@ INSERT INTO musician_style values
 (6, 2),
 (4, 2),
 (7, 4),
-(2, 2);
+(2, 2),
+(10, 1);
 
 INSERT INTO album(name, year_of_release) values
 ('One More Love', 2009),
 ('Мёртвый Анархист', 2003),
 ('Oops!... I Did It Again', 2000),
 ('Gangsta Paradise', 1995),
-('Take Me To Church', 2013),
+('Take Me To Church', 2019),
 ('Wishmaster', 2000),
 ('HIStory - Past, Present and Future - Book I', 1995),
 ('Mutter', 2001),
@@ -48,12 +50,13 @@ INSERT INTO album_musician values
 (6, 4),
 (7, 8),
 (8, 2),
-(9, 9);
+(9, 9),
+(9, 10);
 
 INSERT INTO track(name, album_id, duration) values 
 ('Wishmaster', 6, '00:04:23'),
 ('Ich Will', 8, '00:03:37'),
-('Gangstas Paradise', 4, '00:04:01'),
+('Gangstas Paradise', 6, '00:04:01'),
 ('The Real Slim Shady', 9, '00:04:44'),
 ('Take Me To Church', 5, '00:04:03'),
 ('Cant Make You Love Me', 3, '00:03:17'),
